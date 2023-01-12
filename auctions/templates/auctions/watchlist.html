@@ -12,7 +12,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ listing.item }}</h5>
               <p class="card-text">{{ listing.description }}</p>
-              <p class="card-text">£{{ listing.price }}</p>
+              <p class="card-text">£{{ listing.price.bid }}</p>
               <a href="{% url 'listing' id=listing.id %}" class="btn btn-info">Go to Listing</a>
             </div>
           </div>

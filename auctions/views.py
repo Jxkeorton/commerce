@@ -101,11 +101,11 @@ def category(request):
         if request.method == 'POST':
             formCategory = request.POST['category']
             catsearch = Category.objects.get(category=formCategory)
-            active = auction_listings.objects.filer(Active=True, category=catsearch)
-            category = Category.objects.all()
+            active = auction_listings.objects.filter(Active=True, category=catsearch)
+            categories = Category.objects.all()
             return render(request, "auctions/index.html", {
                 "active": active,
-                "category": category
+                "categories": categories
             })
 
 def listing(request, id):

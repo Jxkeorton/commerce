@@ -36,7 +36,7 @@ The project should now be running locally at `http://localhost:8000/`. Access it
 - SQLite: Embedded relational database management system.
 
 ## Project Structure
-````
+```
 commerce/
 ├── auctions/
 │   ├── migrations/

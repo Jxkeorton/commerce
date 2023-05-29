@@ -33,5 +33,36 @@ The project should now be running locally at `http://localhost:8000/`. Access it
 - Django: A high-level Python web framework for rapid development and clean design.
 - HTML: Markup language for creating the structure and content of web pages.
 - CSS: Stylesheet language for describing the presentation of web pages.
-- JavaScript: Programming language for enhancing user interactions and adding dynamic functionality.
 - SQLite: Embedded relational database management system.
+
+## Project Structure
+
+commerce/
+├── auctions/
+│   ├── migrations/
+│   ├── static/auctions/
+│   ├── templates/auctions/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── models.py
+│   ├── urls.py
+│   └── views.py
+├── commerce/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── db.sqlite3
+└── manage.py
+
+
+
+- The `auctions` app contains the main functionality related to user authentication, registration, listings, including models, views, templates, and forms 
+- The `static/auctions` directory stores static files like CSS.
+- The `templates/auctions` directory contains HTML templates used by the project.
+- `db.sqlite3` is the SQLite database file where data is stored.
+- `manage.py` is a command-line utility for managing the project.
+
+
+

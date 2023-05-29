@@ -36,7 +36,7 @@ The project should now be running locally at `http://localhost:8000/`. Access it
 - SQLite: Embedded relational database management system.
 
 ## Project Structure
-
+````
 commerce/
 ├── auctions/
 │   ├── migrations/
@@ -55,7 +55,7 @@ commerce/
 │   └── wsgi.py
 ├── db.sqlite3
 └── manage.py
-
+```
 
 
 - The `auctions` app contains the main functionality related to user authentication, registration, listings, including models, views, templates, and forms 

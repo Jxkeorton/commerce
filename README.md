@@ -1,6 +1,6 @@
 # eBay-like E-commerce Auction Site
 
-This Django project is part of the CS50w, named "commerce," is an eBay-like e-commerce auction site that allows users to post auction listings, place bids on listings, comment on those listings, and add listings to a "watchlist." It has been developed as part of the CS50W "commerce" project.
+This Django project, named "commerce," is an eBay-like e-commerce auction site that allows users to post auction listings, place bids on listings, comment on those listings, and add listings to a "watchlist." It has been developed as part of the CS50W "commerce" project.
 
 ## Features
 
